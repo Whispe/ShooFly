@@ -29,6 +29,11 @@ public final class SAS {
     static final int MAX_DATA_WIDTH = 256;
 
     /**
+     * Default constructor.
+     */
+    private SAS() {}
+
+    /**
     * Generates .scram file from loop.s or (.z) with opcodesToByte and operands.
     * @param args the arguments.
     * @throws IOException the exception.
